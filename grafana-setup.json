@@ -1160,6 +1160,7 @@
       "type": "table"
     }
   ],
+  "refresh": "30m",
   "schemaVersion": 30,
   "style": "dark",
   "tags": [],
@@ -1174,5 +1175,5 @@
   "timezone": "browser",
   "title": "Data Collection - Error Analysis",
   "uid": "92COJmZ7z",
-  "version": 2
+  "version": 3
 }
