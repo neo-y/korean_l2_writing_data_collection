@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>TASK2 - Data Collection for Error Analysis</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/style2_task.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Task2 - Writing</a>
+        <button
+          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="../index.html">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading text-uppercase mb-0">Writing Task instruction</h1>
+        <!-- Icon Divider-->
+        <br />
+        <!-- Masthead Subheading-->
+        <h2>Please read the instruction below carefully before you start!</h2>
+        <br />
+        <ul align="left">
+          <li>In this task, you are asked to answer five questions by telling your own stories. </li>
+          <li>There is no time limit, but it is recommended to finish the task within 75 minutes.</li>
+          <li>Give yourself about 15 minutes for each question.</li>
+          <li>For each question, write 100-200 characters. (ex. 안녕하세요 = 5 characters) </li>
+          <li>You can use dictionary, but DO NOT use machine translator.</li>
+          <li>Do not get help from other people.</li>
+          <li>Please write only Korean alphabet and punctuation in the answer fields</li>
+          <li>Please note that your answer will be not saved if you leave this page.</li>
+          <li>If you are done, please click 'submit' button below.</li>
+          <li>Your answer will be saved anonymously.</li>
+          <li>Before you start, please give your User ID and five digit access code for the task2 again.</li>
+        </ul>
+      </div>
+      <br /><br />
+      <div>
+        <form id="Task2" method="POST" action="./submitTask2">
+          <div class="row">
+            <div class="col">
+              <label for="id">User ID: </label>
+              <input name="id" id="id" required />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <label for="code">Access Code (5-digit): </label>
+              <input name="code" id="code" required />
+            </div>
+          </div>
+      </div>
+    </header>
+    <section class="page-section portfolio" id="task2Questions">
+      <div class="container">
+          <!-- Question Section-->
+
+          <!-- Question Grid Items-->
+
+          
+            <div class="row">
+            <div class="col">
+              <label for="q1">1. Please introduce yourself. </label><br />
+  <textarea name="q1" id="q1" cols="50" rows="10" placeholder="Answer 1" required></textarea>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+          <div class="row">
+            <div class="col">
+              <label for="q2">2. Describe the appearance of one of your family members. <br> What does he or she look like? </label><br />
+  <textarea name="q2" id="q2" cols="50" rows="10" placeholder="Answer 2" required></textarea>
+              </div>
+          </div>
+          <p></p>
+          <br />
+
+
+          <div class="row">
+            <div class="col">
+              <label for="q3">3. How did you spend your last summer vacation? </label><br />
+  <textarea name="q3" id="q3" cols="50" rows="10" placeholder="Answer 3" required></textarea>
+              </div>
+          </div>
+          <p></p>
+          <br />
+
+
+            <div class="row">
+            <div class="col">
+              <label for="q4">4.What do you do every weekend? </label><br />
+  <textarea name="q4" id="q4" cols="50" rows="10" placeholder="Answer 4" required></textarea>
+              </div>
+          </div>
+          <p></p>
+          <br />
+
+
+            <div class="row">
+            <div class="col">
+              <label for="q5">5. What do you want to acheive this year? </label><br />
+  <textarea name="q5" id="q5" cols="50" rows="10" placeholder="Answer 5" required></textarea>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+
+
+
+
+
+          <p></p>
+          <br />
+          <br />
+          <br />
+          <input type="submit" value="Submit" class="btn btn-primary" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>
+          If you have any questions, please contact Sooyeon Cho <br /><a href="mailto:sooyeon.cho@student.uni-tuebingen.de"
+            >sooyeon.cho@student.uni-tuebingen.de</a
+          >
+          <br />
+          Copyright &copy; 2021 Eberhard Karls Universität Tübingen</small
+        >
+      </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>TASK1 - Data Collection for Error Analysis</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/style2_task.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Task1 - Translation</a>
+        <button
+          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="../index.html">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading text-uppercase mb-0">Translation Task instruction</h1>
+        <!-- Icon Divider-->
+        <br />
+        <!-- Masthead Subheading-->
+        <h2>Please read the instruction below carefully before you start!</h2>
+        <br />
+        <ul align="left">
+          <li>In this task, you are asked to translate 40 English sentences to Korean.</li>
+          <li>There is no time limit, but it is recommended to finish all sentences within 60 minutes.</li>
+          <li>Give yourself about 1~1.5 minute for each sentence.</li>
+          <li>You can use dictionary, but DO NOT use machine translator.</li>
+          <li>Do not get help from other people.</li>
+          <li>Please write only Korean alphabet and punctuation in the answer fields</li>
+          <li>
+            If you cannot translate a sentence at all, please write only 'X' in the answer field. If you leave any answer field empty, the submission
+            will be not done.
+          </li>
+          <li>Please note that your answer will be not saved if you leave this page.</li>
+          <li>If you are done, please click 'submit' button below.</li>
+          <li>Your answer will be saved anonymously.</li>
+          <li>Before you start, please give your User ID and five digit access code for the task1 again.</li>
+        </ul>
+      </div>
+      <br /><br />
+      <div>
+        <form id="Task1" method="POST" action="./submitTask1">
+          <div class="row">
+            <div class="col">
+              <label for="id">User ID: </label>
+              <input name="id" id="id" required />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <label for="code">Access Code (5-digit): </label>
+              <input name="code" id="code" required />
+            </div>
+          </div>
+      </div>
+    </header>
+    <section class="page-section portfolio" id="task1Questions">
+      <div class="container">
+          <!-- Question Section-->
+
+          <!-- Question Grid Items-->
+          <div class="row">
+            <div class="col">
+              <label for="q1">1. I am from korea. </label><br />
+              <input name="q1" id="q1" type="text" size="70" placeholder="Answer 1" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q2">2. I am not an office worker. </label><br />
+              <input name="q2" id="q2" type="text" size="70" placeholder="Answer 2" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q3">3. I like movies too. </label><br />
+              <input name="q3" id="q3" type="text" size="70" placeholder="Answer 3" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q4">4. Is this Jihun's school? </label><br />
+              <input name="q4" id="q4" type="text" size="70" placeholder="Answer 4" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q5">5. The weather is not good. </label><br />
+              <input name="q5" id="q5" type="text" size="70" placeholder="Answer 5" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q6">6. I write a letter to my friend. </label><br />
+              <input name="q6" id="q6" type="text" size="70" placeholder="Answer 6" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q7">7. Where are you now? </label><br />
+              <input name="q7" id="q7" type="text" size="70" placeholder="Answer 7" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q8">8. I met a friend on Saturday. </label><br />
+              <input name="q8" id="q8" type="text" size="70" placeholder="Answer 8" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q9">9. I can't swim. </label><br />
+              <input name="q9" id="q9" type="text" size="70" placeholder="Answer 9" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q10">10. Shall we have lunch together? </label><br />
+              <input name="q10" id="q10" type="text" size="70" placeholder="Answer 10" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q11">11. I can't eat tteokbokki because it is too spicy. </label><br />
+              <input name="q11" id="q11" type="text" size="70" placeholder="Answer 11" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q12">12. Can you dance? </label><br />
+              <input name="q12" id="129" type="text" size="70" placeholder="Answer 12" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q13">13. I'm going to travel before I go to my hometown. </label><br />
+              <input name="q13" id="q13" type="text" size="70" placeholder="Answer 13" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q14">14. Get some good rest after taking the medicine. </label><br />
+              <input name="q14" id="q14" type="text" size="70" placeholder="Answer 14" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+          <div class="row">
+            <div class="col">
+              <label for="q15">15. How do I get to the subway station from here? </label><br />
+              <input name="q15" id="q15" type="text" size="70" placeholder="Answer 15" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q16">16. What should I bring to the housewarming party? </label><br />
+              <input name="q16" id="q16" type="text" size="70" placeholder="Answer 16" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q17">17. My mother likes flowers. </label><br />
+              <input name="q17" id="q17" type="text" size="70" placeholder="Answer 17" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q18">18. I am taller than my brother. </label><br />
+              <input name="q18" id="q18" type="text" size="70" placeholder="Answer 18" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q19">19. It's raining a lot. </label><br />
+              <input name="q19" id="q19" type="text" size="70" placeholder="Answer 19" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q20">20. I meet a freind at the cafe. </label><br />
+              <input name="q20" id="q20" type="text" size="70" placeholder="Answer 20" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q21">21. How about a book as a gift to your friend? </label><br />
+              <input name="q21" id="q21" type="text" size="70" placeholder="Answer 21" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q22">22. Let's clean together. </label><br />
+              <input name="q22" id="q22" type="text" size="70" placeholder="Answer 22" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <label for="q23">23. What does your dog look like? </label><br />
+              <input name="q23" id="q23" type="text" size="70" placeholder="Answer 23" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q24">24. Do you know his face? </label><br />
+              <input name="q24" id="q24" type="text" size="70" placeholder="Answer 24" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q25">25. How about making bulgogi? </label><br />
+              <input name="q25" id="q25" type="text" size="70" placeholder="Answer 25" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q26">26. I don't put sugar in my coffee. </label><br />
+              <input name="q26" id="q26" type="text" size="70" placeholder="Answer 26" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q27">27. I am going to make bread. I need some flour. </label><br />
+              <input name="q27" id="q27" type="text" size="70" placeholder="Answer 27" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q28">28. I take a test for three days. </label><br />
+              <input name="q85" id="q28" type="text" size="70" placeholder="Answer 28" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q29">29. The scenery is beautiful. </label><br />
+              <input name="q29" id="q29" type="text" size="70" placeholder="Answer 29" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q30">30. Have you been to Seoul? </label><br />
+              <input name="q30" id="q30" type="text" size="70" placeholder="Answer 30" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q31">31. Don't eat too much cold food. </label><br />
+              <input name="q31" id="q31" type="text" size="70" placeholder="Answer 31" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q32">32. What do you want to do tonight? </label><br />
+              <input name="q32" id="q32" type="text" size="70" placeholder="Answer 32" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q33">33. Shall we watch a motive during the holiday? </label><br />
+              <input name="q33" id="q33" type="text" size="70" placeholder="Answer 33" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q34">34. The tickets are sold out.  </label><br />
+              <input name="q34" id="q34" type="text" size="70" placeholder="Answer 34" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+         <div class="row">
+            <div class="col">
+              <label for="q35">35. The movie was a bit boring. </label><br />
+              <input name="q35" id="q35" type="text" size="70" placeholder="Answer 35" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+         <div class="row">
+            <div class="col">
+              <label for="q36">36. I go to the mountains every weekend. </label><br />
+              <input name="q36" id="q36" type="text" size="70" placeholder="Answer 36" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+                   <div class="row">
+            <div class="col">
+              <label for="q37">37. I'm interested in Korean food. </label><br />
+              <input name="q37" id="q37" type="text" size="70" placeholder="Answer 37" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+                   <div class="row">
+            <div class="col">
+              <label for="q38">38. Be quiet after 10 p.m. </label><br />
+              <input name="q38" id="q38" type="text" size="70" placeholder="Answer 38" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+                   <div class="row">
+            <div class="col">
+              <label for="q39">39. I decided to major in Korean to get a job in a Korean company. </label><br />
+              <input name="q39" id="q39" type="text" size="70" placeholder="Answer 39" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+                   <div class="row">
+            <div class="col">
+              <label for="q40">40. I can't find my cell phone. </label><br />
+              <input name="q40" id="q40" type="text" size="70" placeholder="Answer 40" required/>
+            </div>
+          </div>
+          <p></p>
+          <br />
+
+
+
+
+
+          <p></p>
+          <br />
+          <br />
+          <br />
+          <input type="submit" value="Submit" class="btn btn-primary" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>
+          If you have any questions, please contact Sooyeon Cho <br /><a href="mailto:sooyeon.cho@student.uni-tuebingen.de"
+            >sooyeon.cho@student.uni-tuebingen.de</a
+          >
+          <br />
+          Copyright &copy; 2021 Eberhard Karls Universität Tübingen</small
+        >
+      </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
