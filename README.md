@@ -86,18 +86,25 @@ Example code below with localhost, database name `kor`, username `korlearn` and 
 ## Usage
 
 1. Run the server
-```bash
-node start-server.js
-```
-Clients(participants) can now access the server and submit data.  
-Default server address is `localhost:3300`
+      ```bash
+      node start-server.js
+      ```
+    Clients(participants) can now access the server and submit data.  
+    Default server address is `localhost:3300`
 
 
-2. Check database in Grafana
-Go to grafana server (default: localhost:3000) and login
-You can see participants information and their status and some statistics
-If you want, you can add more statistics by creating panels
-The dashboard will be refreshed automatically.
+2. Check database in Grafana  
+
+    Go to the grafana server (default: `localhost:3000`) and login  
+    You can see the (in the step `4-3`) uploaded dashboard in `Dashboards-Manage` (Dafault dashboard name: `Data Collection - Error Analysis`)  
+    This information is provided live in the dashboard:
+    - Raw view of all tables
+    - Progress: the total number of participants, participants' progress ratios
+    - Statistics about participants' background: distributions of the native languages, Korean and English level
+    If you want, you can add more statistics by creating new panels.  
+ 
+    The dashboard will be refreshed automatically (default: every 30 minutes)
+
 
 3. Database
 TODO explain database and their columns
