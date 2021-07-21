@@ -121,7 +121,7 @@ Example code below with localhost, database name `kor`, username `korlearn` and 
     This information is provided live in the dashboard:
     - Raw view of all tables
     - Progress: the total number of participants, participants' progress ratios
-    - Statistics about participants' background: distributions of the native languages, Korean and English level
+    - Statistics about participants' background: distributions of the native languages, Korean and English level  
     If you want, you can add more statistics by creating new panels.  
  
     The dashboard will be refreshed automatically (default: every 30 minutes)
