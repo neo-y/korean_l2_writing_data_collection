@@ -3,7 +3,29 @@
 ## Description
 This repository contains source code for the web-based data collection project to gather writing data of beginner Korean learners.
 
-  
+### Purpose of the project
+The number of people who learn the Korean language is increasing annually. To teach Korean more effectively, the types of errors made by learners need to be analyzed and reflected in the teaching. This information can be fed for example into learning apps, which will enable more interactive learning. For this purpose, this project gathers two kinds of writing data of beginner Korean learners which will be used for error analysis.
+
+### Which data is collected?
+1) Basic information about the participants (background questionnaire)
+    - Name, email, age, birth date, nationality, major/native language, information about Korean learning, language certificate
+    - This information is needed to analyze writing data properly. Especially, it is expected that learners with different levels of Korean and native language show different kinds of errors.
+
+2) Writings in Korean 1 (task1 - translation task)
+    - 40 short sentences translated from English to Korean
+
+3) Writings in Korean 2 (task2 - writing task)
+    - Five short writings with specific topics (100-120 characters for each topic)
+   
+  All the question sentences are extracted from level 1~2 Korean text books published by King Sejong Institute, a public institution under the Korean Ministry of Culture, Sports and Tourism, and modified slightly to fit the purpose of the project.
+
+
+
+
+### How does the module work?
+TODO
+
+
 
   
 ## Requirements
@@ -105,9 +127,6 @@ Example code below with localhost, database name `kor`, username `korlearn` and 
  
     The dashboard will be refreshed automatically (default: every 30 minutes)
 
-
-3. Database
-TODO explain database and their columns
 
 
 
