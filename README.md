@@ -22,8 +22,8 @@ The number of people who learn the Korean language is increasing annually. To te
 
 
 
-### How does the module work?
-TODO
+### How does the system work?
+
 
 
 
