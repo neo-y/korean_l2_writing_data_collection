@@ -23,8 +23,7 @@ The number of people who learn the Korean language is increasing annually. To te
 
 
 ### How does the system work?
-
-
+<img src="./image/client-server-flow.png" width="800" height="400">
 
 
   
