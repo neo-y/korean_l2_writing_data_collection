@@ -17,7 +17,7 @@ The number of people who learn the Korean language is increasing annually. To te
 3) Writings in Korean 2 (task2 - writing task)
     - Five short writings with specific topics (100-120 characters for each topic)
    
-  All the question sentences are extracted from level 1~2 Korean text books published by King Sejong Institute, a public institution under the Korean Ministry of Culture, Sports and Tourism, and modified slightly to fit the purpose of the project.
+  All the question sentences are extracted from level 1~2 Korean textbooks published by King Sejong Institute, a public institution under the Korean Ministry of Culture, Sports and Tourism, and modified slightly to fit the purpose of the project.
 
 
 
