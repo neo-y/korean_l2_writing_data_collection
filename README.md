@@ -50,8 +50,8 @@ The number of people who learn the Korean language is increasing annually. To te
           ```
 
   
-3. Setup mySQL server
-**Please change the configuration in the variable `con` in `database-setup.js` and `start-server.js` to use other user name and password.**
+3. Setup mySQL server   
+**Please change the configuration in the variable `con` in `database-setup.js` and `start-server.js` to use other user name and password.**   
 Example code below with localhost, database name `kor`, username `korlearn` and password `korlearnpw` (default set in scripts):   
    
     3.1)   
