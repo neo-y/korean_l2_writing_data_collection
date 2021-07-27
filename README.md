@@ -1,4 +1,4 @@
-# Data collection project for error analysis of Korean language learners
+# Data Collection Project for Error Analysis of Korean Language Learners
 
 ## Description
 This repository contains source code for a web-based data collection project to gather writing data of beginner Korean learners.
